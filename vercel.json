@@ -5,8 +5,7 @@
       "src": "app.py",
       "use": "@vercel/python",
       "config": {
-        "runtime": "python3.10",
-        "buildCommand": "curl https://sh.rustup.rs -sSf | sh -s -- -y && export PATH=\"$HOME/.cargo/bin:$PATH\" && pip install -r requirements.txt"
+        "runtime": "python3.10"
       }
     }
   ],
